@@ -259,7 +259,7 @@ a {
       @media (max-width: 700px) {
         .projects__list__item {
           width: 100%;
-          margin-bottom: 5rem; } }
+          margin-bottom: 6rem; } }
       .projects__list__item .projects__list__item__title {
         color: #fff;
         position: absolute;
