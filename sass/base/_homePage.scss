@@ -30,7 +30,7 @@
       // margin-right: auto;
       max-width: 70rem;
       padding: 5rem;
-      border: 2px solid $color-white;
+      border: 2px solid $color-grey-light-1;
       line-height: 180%;
       word-spacing: 0.3rem;
       border-radius: 0.4rem;
@@ -38,6 +38,7 @@
       @include respond(phone) {
         padding: 2.8rem;
         line-height: 170%;
+        border-width: 1.5px;
       }
 
       &__hightlight {
