@@ -1,0 +1,64 @@
+.footer {
+  background-color: $color-grey-dark-1;
+  padding: 5rem 0;
+  padding-bottom: 3rem;
+  color: rgba($color-white, 0.7);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  font-size: 1.4rem;
+  &__list {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+
+    min-width: 40%;
+    justify-content: space-between;
+
+    &__item {
+      &:not(:last-child) {
+        @include respond(phone) {
+          display: none;
+          flex: 0 1;
+        }
+      }
+
+      &__link {
+        &:link,
+        &:visited {
+          color: $color-white;
+          display: inline-block;
+          transition: 0.2s;
+          padding: 0.5rem 1rem;
+        }
+
+        &:hover {
+          transform: scale(1.1) translateY(-0.2rem);
+        }
+      }
+    }
+  }
+
+  &__attribute {
+    margin-top: 5rem;
+    text-align: center;
+
+    &__copy {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__logo {
+    &__img {
+      height: 3rem;
+
+      @include respond(phone) {
+        height: 2rem;
+      }
+    }
+  }
+}

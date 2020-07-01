@@ -1,0 +1,54 @@
+<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="nav__logo__svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="90.675"
+            height="54.361"
+            viewBox="0 0 90.675 54.361"
+          >
+            <defs>
+              <linearGradient
+                id="linear-gradient"
+                x1="0.5"
+                x2="0.5"
+                y2="1"
+                gradientUnits="objectBoundingBox"
+              >
+                <stop offset="0" stop-color="#12cad6" />
+                <stop offset="0.978" stop-color="#00b2fe" />
+                <stop offset="1" stop-color="#00b2ff" />
+              </linearGradient>
+            </defs>
+            <g id="icon__nav" transform="translate(-0.729 -0.729)">
+              <g id="Vector">
+                <path
+                  id="Path_5"
+                  data-name="Path 5"
+                  d="M30.614,7.858a4.175,4.175,0,1,0-5.9-5.905L1.953,24.709a4.176,4.176,0,1,0,5.905,5.905Z"
+                  fill="url(#linear-gradient)"
+                />
+                <path
+                  id="Path_6"
+                  data-name="Path 6"
+                  d="M1.953,25.2,4.9,22.253,30.614,47.962a4.176,4.176,0,1,1-5.905,5.9L1.953,31.111a4.176,4.176,0,0,1,0-5.906Z"
+                  fill="url(#linear-gradient)"
+                />
+              </g>
+              <g id="right__arrow">
+                <g id="Vector_2">
+                  <path
+                    id="Path_7"
+                    data-name="Path 7"
+                    d="M61.52,47.961a4.175,4.175,0,1,0,5.905,5.9L90.181,31.11A4.176,4.176,0,1,0,84.276,25.2Z"
+                    fill="url(#linear-gradient)"
+                  />
+                  <path
+                    id="Path_8"
+                    data-name="Path 8"
+                    d="M90.181,30.614l-2.952,2.952L61.52,7.857a4.176,4.176,0,1,1,5.905-5.905L90.181,24.708a4.176,4.176,0,0,1,0,5.906Z"
+                    fill="url(#linear-gradient)"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg> 

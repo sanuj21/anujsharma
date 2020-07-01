@@ -1,0 +1,65 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+
+  @include respond(tab) {
+    font-size: 9px;
+  }
+
+  @include respond(phone) {
+    font-size: 8.5px;
+  }
+}
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-default;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  background-color: $color-grey-light-1;
+  //   line-height: 150%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.marginAround {
+  margin: 0 8rem;
+
+  @include respond(mini-lap) {
+    margin: 0 4rem;
+  }
+
+  @include respond(tab) {
+    margin: 0 2rem;
+  }
+}
+
+//HEADING
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.5rem;
+
+  @include respond(phone) {
+    font-size: 3rem;
+  }
+
+  &--primary {
+    color: $color-secondary;
+  }
+
+  &--secondary {
+    color: $color-primary;
+  }
+}
