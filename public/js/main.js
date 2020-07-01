@@ -103,4 +103,12 @@
   DOMElements.projectItemArr.forEach((el) => {
     el.addEventListener('click', handleClickProjectItem(el));
   });
+
+  // WAITINT TILL IMAGE LOADS
+  const headerImg = document.querySelector('.header');
+  document.body.classList.add('js-loading');
+  headerImg.addEventListener('load', () => {
+    document.body.classList.remove('js-loading');
+  });
+  ////////////////
 })();

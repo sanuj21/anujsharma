@@ -63,3 +63,11 @@ a {
     color: $color-primary;
   }
 }
+
+// JS LOADING
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}

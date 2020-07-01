@@ -47,6 +47,11 @@ a {
   .heading--secondary {
     color: #12cad6; }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important; }
+
 .nav {
   display: flex;
   justify-content: space-between;
