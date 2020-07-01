@@ -99,7 +99,7 @@ a {
 
 .header {
   color: #fff;
-  background-image: url("./../images/background__header.svg");
+  background-image: url("../images/background__header.png");
   background-position: center;
   background-size: cover; }
   @media (max-width: 1000px) {
