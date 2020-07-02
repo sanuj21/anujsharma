@@ -79,7 +79,7 @@
   }
 
   &__content {
-    margin-top: 18rem;
+    margin-top: 16rem;
     padding-bottom: 5rem;
 
     @include respond(phone) {
@@ -104,7 +104,7 @@
           &:after {
             content: '';
             display: inline-block;
-
+            font-size: 2rem;
             width: 27rem;
             height: 27rem;
             position: absolute;
