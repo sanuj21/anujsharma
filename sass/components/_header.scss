@@ -40,6 +40,7 @@
       &__link {
         display: inline-block;
         padding: 0.5rem 0.2rem;
+        font-weight: 500;
         &:link,
         &:visited {
           text-decoration: none;
@@ -91,7 +92,7 @@
       word-spacing: 1rem;
 
       @include respond(phone) {
-        font-size: 5rem;
+        font-size: 5.5rem;
       }
       &__text {
         &--greet {

@@ -21,7 +21,7 @@ html {
 
 body {
   color: $color-default;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   background-color: $color-grey-light-1;
@@ -49,10 +49,10 @@ a {
 .heading {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 3.5rem;
+  font-size: 4rem;
 
   @include respond(phone) {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 
   &--primary {

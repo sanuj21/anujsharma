@@ -17,7 +17,7 @@ html {
 
 body {
   color: #444;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   background-color: #f5f5f5; }
@@ -38,10 +38,10 @@ a {
 .heading {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 3.5rem; }
+  font-size: 4rem; }
   @media (max-width: 700px) {
     .heading {
-      font-size: 3rem; } }
+      font-size: 3.2rem; } }
   .heading--primary {
     color: #00b2ff; }
   .heading--secondary {
@@ -86,6 +86,7 @@ a {
     .nav__list__item__link {
       display: inline-block;
       padding: 0.5rem 0.2rem;
+      font-weight: 500;
       position: relative; }
       .nav__list__item__link:link, .nav__list__item__link:visited {
         text-decoration: none; }
@@ -122,7 +123,7 @@ a {
       word-spacing: 1rem; }
       @media (max-width: 700px) {
         .header__content__main {
-          font-size: 5rem; } }
+          font-size: 5.5rem; } }
       .header__content__main__text--greet {
         position: relative;
         transform: translate(-40rem);
@@ -233,8 +234,7 @@ a {
       padding-bottom: 6rem; } }
   .projects__title__sub {
     margin-top: 2rem;
-    font-size: 1.8rem;
-    opacity: 0.7; }
+    font-size: 2rem; }
   .projects__list {
     margin-top: 6rem; }
     .projects__list__row {
@@ -271,10 +271,12 @@ a {
           padding: 1rem;
           line-height: 2.2;
           padding: 1rem 1.5rem;
+          font-size: 1.8rem;
           font-weight: 500;
           background: linear-gradient(to right bottom, rgba(18, 202, 214, 0.95), rgba(0, 178, 255, 0.95));
           border-radius: 0.4rem;
-          box-decoration-break: clone; }
+          box-decoration-break: clone;
+          -webkit-box-decoration-break: clone; }
       .projects__list__item__infoBtn {
         background-color: #fff;
         color: #00b2ff;
@@ -404,13 +406,14 @@ a {
   padding: 5rem 0;
   padding-bottom: 3rem;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.4rem; }
+  font-size: 1.6rem; }
   .footer__content {
     display: flex;
     align-items: center;
     justify-content: space-between; }
   .footer__list {
     list-style-type: none;
+    font-weight: 500;
     display: flex;
     text-transform: uppercase;
     min-width: 40%;
@@ -501,10 +504,12 @@ a {
     .whyHire {
       padding: 5rem 0; } }
   .whyHire__content {
-    margin-top: 6rem; }
+    margin-top: 6rem;
+    font-size: 2.2rem; }
     @media (max-width: 700px) {
       .whyHire__content {
-        margin-top: 3rem; } }
+        margin-top: 3rem;
+        font-size: 1.8rem; } }
     .whyHire__content__main {
       color: #fff;
       max-width: 100%;

@@ -19,9 +19,10 @@
 
   &__content {
     margin-top: 6rem;
-
+    font-size: 2.2rem;
     @include respond(phone) {
       margin-top: 3rem;
+      font-size: 1.8rem;
     }
 
     &__main {
