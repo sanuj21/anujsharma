@@ -276,7 +276,8 @@ a {
           background: linear-gradient(to right bottom, rgba(18, 202, 214, 0.95), rgba(0, 178, 255, 0.95));
           border-radius: 0.4rem;
           box-decoration-break: clone;
-          -webkit-box-decoration-break: clone; }
+          -webkit-box-decoration-break: clone;
+          overflow: hidden; }
       .projects__list__item__infoBtn {
         background-color: #fff;
         color: #00b2ff;
@@ -509,7 +510,7 @@ a {
     @media (max-width: 700px) {
       .whyHire__content {
         margin-top: 3rem;
-        font-size: 1.8rem; } }
+        font-size: 1.9rem; } }
     .whyHire__content__main {
       color: #fff;
       max-width: 100%;
