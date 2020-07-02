@@ -71,7 +71,6 @@
 
   // Handling Animation Typing
   typewriter = setupTypewriter(DOMElements.headerMain);
-  setTimeout(typewriter.type, 3000);
   ////////////
 
   // PROJECT ITEM INFO
@@ -108,6 +107,7 @@
   document.body.classList.add('js-loading');
   window.addEventListener('load', () => {
     document.body.classList.remove('js-loading');
+    setTimeout(typewriter.type, 3000);
   });
   ////////////////
 })();
