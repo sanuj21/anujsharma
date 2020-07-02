@@ -112,7 +112,7 @@ a {
     .header {
       background-position: 75%; } }
   .header__content {
-    margin-top: 16rem;
+    margin-top: 17rem;
     padding-bottom: 5rem; }
     @media (max-width: 700px) {
       .header__content {
@@ -123,7 +123,7 @@ a {
       word-spacing: 1rem; }
       @media (max-width: 700px) {
         .header__content__main {
-          font-size: 5.5rem; } }
+          font-size: 5rem; } }
       .header__content__main__text--greet {
         position: relative;
         transform: translate(-40rem);
