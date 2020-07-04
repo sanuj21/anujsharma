@@ -266,7 +266,7 @@ a {
         color: #fff;
         position: absolute;
         bottom: 2rem;
-        right: 1rem;
+        right: 3.5rem;
         width: 50%;
         text-align: right; }
         .projects__list__item .projects__list__item__title__inner {
@@ -277,7 +277,8 @@ a {
           font-weight: 500;
           background: linear-gradient(to right bottom, rgba(18, 202, 214, 0.95), rgba(0, 178, 255, 0.95));
           border-radius: 0.4rem;
-          box-decoration-break: clone; }
+          box-decoration-break: clone;
+          -webkit-box-decoration-break: clone; }
       .projects__list__item__infoBtn {
         background-color: #fff;
         color: #00b2ff;
