@@ -227,6 +227,7 @@ a {
     opacity: 1; } }
 
 .projects {
+  overflow: hidden;
   padding-top: 8rem;
   padding-bottom: 12rem; }
   @media (max-width: 1000px) {
@@ -253,8 +254,16 @@ a {
       width: 45%;
       position: relative;
       box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2), 0 -0.5rem 2rem rgba(0, 0, 0, 0.2);
-      transition: 0.4s;
-      overflow: hidden; }
+      transition: 0.6s ease-in;
+      overflow: hidden;
+      opacity: 0; }
+      .projects__list__item:nth-child(odd) {
+        transform: translateX(-30%) scale(0.9); }
+      .projects__list__item:nth-child(even) {
+        transform: translateX(30%) scale(0.9); }
+      .projects__list__item--active {
+        transform: translateX(0%) scale(1) !important;
+        opacity: 1 !important; }
       @media (max-width: 1366px) {
         .projects__list__item {
           width: 48%; } }
@@ -507,11 +516,17 @@ a {
       padding: 7rem 0; } }
   .whyHire__content {
     margin-top: 6rem;
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+    transform: scale(0.5);
+    opacity: 0;
+    transition: 0.4s ease-out; }
     @media (max-width: 700px) {
       .whyHire__content {
         margin-top: 3rem;
         font-size: 2rem; } }
+    .whyHire__content--active {
+      transform: scale(1);
+      opacity: 1; }
     .whyHire__content__main {
       color: #fff;
       max-width: 100%;
