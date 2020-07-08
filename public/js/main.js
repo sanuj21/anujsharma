@@ -117,6 +117,8 @@
   // DEBOUNCE FUNC TO CALL FUNC (AFTER DELAY)
 
   // FN -> takes function, wait -> for ml before execution
+  // NOT NEEDED
+  /*
   const debounce = function (fn, wait = 20, immediate = true) {
     let timeout;
     return function () {
@@ -166,4 +168,5 @@
   };
 
   window.addEventListener('scroll', debounce(slideInSections));
+  */
 })();

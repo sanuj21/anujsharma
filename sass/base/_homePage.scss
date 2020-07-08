@@ -15,18 +15,18 @@
   &__content {
     margin-top: 6rem;
     font-size: 2.2rem;
-    transform: scale(0.5);
-    opacity: 0;
-    transition: all 0.4s;
+    // transform: scale(0.5);
+    // opacity: 0;
+    // transition: all 0.4s;
     @include respond(phone) {
       margin-top: 3rem;
       font-size: 2rem;
     }
 
-    &--active {
-      transform: scale(1);
-      opacity: 1;
-    }
+    // &--active {
+    //   transform: scale(1);
+    //   opacity: 1;
+    // }
 
     &__main {
       color: $color-white;

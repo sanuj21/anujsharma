@@ -36,22 +36,22 @@
       position: relative;
       box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2),
         0 -0.5rem 2rem rgba(0, 0, 0, 0.2);
-      transition: all 0.5s;
+      // transition: all 0.5s;
       overflow: hidden;
-      opacity: 0;
+      // opacity: 0;
 
-      &:nth-child(odd) {
-        transform: translateX(-30%) scale(0.9);
-      }
+      // &:nth-child(odd) {
+      //   transform: translateX(-30%) scale(0.9);
+      // }
 
-      &:nth-child(even) {
-        transform: translateX(30%) scale(0.9);
-      }
+      // &:nth-child(even) {
+      //   transform: translateX(30%) scale(0.9);
+      // }
 
-      &--active {
-        transform: translateX(0%) scale(1) !important;
-        opacity: 1 !important;
-      }
+      // &--active {
+      //   transform: translateX(0%) scale(1) !important;
+      //   opacity: 1 !important;
+      // }
 
       @include respond(mini-lap) {
         width: 48%;
