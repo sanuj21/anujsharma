@@ -43,7 +43,7 @@ a {
     .heading {
       font-size: 3.2rem; } }
   .heading--primary {
-    color: #00b2ff; }
+    color: #12cad6; }
   .heading--secondary {
     color: #12cad6; }
 
@@ -140,7 +140,7 @@ a {
           left: -1rem;
           transform: scale(0) translateY(-30%);
           animation: heyBgAnimation 0.5s 1.8s ease forwards;
-          background-color: rgba(0, 178, 255, 0.3);
+          background-color: rgba(18, 202, 214, 0.3);
           border-radius: 50%; }
           @media (max-width: 700px) {
             .header__content__main__text--greet:after {
@@ -275,13 +275,13 @@ a {
           padding: 1rem 1.5rem;
           font-size: 1.8rem;
           font-weight: 500;
-          background: linear-gradient(to right bottom, rgba(18, 202, 214, 0.95), rgba(0, 178, 255, 0.95));
+          background: linear-gradient(to right bottom, rgba(18, 202, 214, 0.6), rgba(18, 202, 214, 0.6));
           border-radius: 0.4rem;
           box-decoration-break: clone;
           -webkit-box-decoration-break: clone; }
       .projects__list__item__infoBtn {
         background-color: #fff;
-        color: #00b2ff;
+        color: #12cad6;
         width: 3.5rem;
         position: absolute;
         top: 1.5rem;
@@ -365,7 +365,7 @@ a {
             .projects__list__item__info__desc {
               margin-bottom: 2.5rem; } }
           .projects__list__item__info__desc span {
-            color: #00b2ff;
+            color: #12cad6;
             font-weight: 500; }
         .projects__list__item__info__link a:link, .projects__list__item__info__link a:visited {
           text-decoration: none;
@@ -373,14 +373,14 @@ a {
           display: inline-block;
           font-size: 1.4rem;
           margin-bottom: 2rem;
-          background: linear-gradient(to bottom right, rgba(18, 202, 214, 0.9), rgba(0, 178, 255, 0.9));
+          background: linear-gradient(to bottom right, rgba(18, 202, 214, 0.9), rgba(18, 202, 214, 0.9));
           color: #fff;
           text-transform: uppercase;
           font-weight: 500;
           box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
           transition: background 0.5s; }
           .projects__list__item__info__link a:link:hover, .projects__list__item__info__link a:visited:hover {
-            background: linear-gradient(to bottom right, #12cad6, #00b2ff); }
+            background: linear-gradient(to bottom right, #12cad6, #12cad6); }
           @media (max-width: 1000px) {
             .projects__list__item__info__link a:link, .projects__list__item__info__link a:visited {
               margin-bottom: 1.4rem;
@@ -499,7 +499,7 @@ a {
       display: inline-block; }
 
 .whyHire {
-  background: #1a1a1a;
+  background: #333;
   padding: 10rem 0;
   align-items: center; }
   @media (max-width: 1000px) {
@@ -517,19 +517,18 @@ a {
       max-width: 100%;
       padding: 5rem;
       border: 2px solid #eee;
-      line-height: 180%;
-      word-spacing: 0.3rem;
+      line-height: 170%;
+      word-spacing: 0.2rem;
       border-radius: 0.4rem; }
       @media (max-width: 700px) {
         .whyHire__content__main {
           padding: 2.2rem;
-          line-height: 170%;
+          line-height: 160%;
           border-width: 1.5px; } }
       .whyHire__content__main__hightlight {
         color: #12cad6;
         display: block; }
       .whyHire__content__main__greet {
-        color: #00b2ff;
         display: block;
         margin-bottom: 0.5rem;
         font-weight: 500; }

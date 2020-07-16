@@ -1,7 +1,7 @@
 // WHY HIRE SECTION
 
 .whyHire {
-  background: $color-grey-dark-darker;
+  background: $color-grey-dark-1;
   padding: 10rem 0;
   align-items: center;
 
@@ -35,13 +35,13 @@
       max-width: 100%;
       padding: 5rem;
       border: 2px solid $color-grey-light-2;
-      line-height: 180%;
-      word-spacing: 0.3rem;
+      line-height: 170%;
+      word-spacing: 0.2rem;
       border-radius: 0.4rem;
 
       @include respond(phone) {
         padding: 2.2rem;
-        line-height: 170%;
+        line-height: 160%;
         border-width: 1.5px;
       }
 
@@ -51,7 +51,6 @@
       }
 
       &__greet {
-        color: $color-secondary;
         display: block;
         margin-bottom: 0.5rem;
         font-weight: 500;
